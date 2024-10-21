@@ -1,14 +1,15 @@
-import { useState } from 'react'
-import './App.css'
-import { Input } from './Input/Input'
+import './App.css';
+import { Input } from './components/ToDoList/Input/Input';
 
 function App() {
-
   return (
-    <>
-    <Input />
-    </>
-  )
+    <div className="main">
+      <h1 className='name'>TODO LIST</h1>
+      <Input />
+    </div>
+
+
+  );
 }
 
-export default App
+export default App;
